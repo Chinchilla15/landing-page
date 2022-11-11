@@ -12,9 +12,7 @@ body{
     background-color: #1F2937;
 }
 
-.navbar{
-    margin: 0;
-    padding: 0;
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -27,7 +25,6 @@ body{
 header{
     color: #F9FAF8;
     font-size: 24px;
-    display: flex;
     font-weight: bolder;
 }
 
@@ -36,7 +33,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
-    
 }
 
 a{
@@ -60,17 +56,16 @@ a{
 h2{
     font-size: 48px;
     color: #F9FAF8;
-    padding: 0px;
     margin: 0px;
     font-weight: bolder;
 }
 
-.contrast{
-    font-weight: lighter;
-    margin-bottom: 10px;
+p{
+    font-weight: 200;
+    margin-bottom: 13px;
+    margin-top: 0px;
     font-size: 18px;
     color: #E5E7EB;
-    text-align: left;
 }
 
 .upper-b{
@@ -89,17 +84,18 @@ h2{
 }
 
 .upper-b:hover{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     color: white;
 }
 
-.section-b{
+h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0px;
-    font-size: 25px;
+    margin: 52px 0px;
+    font-size: 36px;
     font-weight: bold;
+    color: #1F2937;
 }
 
 .box-container{
@@ -108,31 +104,63 @@ h2{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 120px;
 }
 
 .boxes{
     border-style: solid;
     border-color:#3882F6;
     border-width: 4px;
-    width: 140px;
-    height: 140px;
-    border-radius: 12px;
-    margin: 0px 18px;
-}
-
-.boxfix{
-    display: flex;
-    flex-direction: column;
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    margin: 0px 25px;
 }
 
 .boxart{
-    max-width: 150px;
-    width: 100%;
-    margin-left: 15px;
+    width: 160px;
+    margin-left: 30px;
     padding-top: 5px;
     text-align: center;
     font-size: 18px;
     font-weight: 300;
-    filter: contrast(75%);
 }
 
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px 120px 0px;
+}
+
+figure{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937; 
+    margin: 0px;
+    padding: 0px 338px;
+}
+
+figcaption{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 440px;
+}
+
+.signup{
+    background-color: #3882F6;
+    width: 750px;
+    margin-top: 75px;
+}
+
+.info{
+    color: black;
+}
+
+.big-box{
+    display: flex;
+    justify-content: center;
+}
